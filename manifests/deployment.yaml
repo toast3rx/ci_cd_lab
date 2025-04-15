@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/toast3rx/ci_cd_lab:latest
+          image: ghcr.io/toast3rx/ci_cd_lab:4642362aecda452f6ca0af35ef3a913dfaf433fc5a9e37b721b3b30b3f115bf1
           ports:
             - containerPort: 8080
